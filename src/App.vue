@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>My To-Do List</h1>
+    <h1>我的代辦清單</h1>
     <h2 id="list-summary" ref="listSummary" tabindex="-1">{{ listSummary }}</h2>
 
     <to-do-form @todo-added="addToDo"></to-do-form>

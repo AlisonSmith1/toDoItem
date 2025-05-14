@@ -2,9 +2,7 @@
   <form @submit.prevent="onSubmit">
     <!--當使用者送出表單時，執行 onSubmit 方法，但不要讓瀏覽器刷新頁面。-->
     <h2 class="label-wrapper">
-      <label for="new-todo-input" class="label__lg">
-        What needs to be done?
-      </label>
+      <label for="new-todo-input" class="label__lg"> 請輸入代辦事項 </label>
     </h2>
     <input
       type="text"

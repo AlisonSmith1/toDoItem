@@ -12,11 +12,11 @@
     </div>
     <div class="btn-group">
       <button type="button" class="btn" @click="onCancel">
-        Cancel
+        取消
         <span class="visually-hidden">editing {{ label }}</span>
       </button>
       <button type="submit" class="btn btn__primary" @click="onSave">
-        Save
+        儲存
         <span class="visually-hidden">edit for {{ label }}</span>
       </button>
     </div>
