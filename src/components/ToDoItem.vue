@@ -22,10 +22,10 @@
         class="btn"
         @click="toggleToItemEditForm"
       >
-        Edit <span class="visually-hidden">{{ label }}</span>
+        編輯 <span class="visually-hidden">{{ label }}</span>
       </button>
       <button type="button" class="btn btn__danger" @click="deleteToDo">
-        Delete <span class="visually-hidden">{{ label }}</span>
+        刪除 <span class="visually-hidden">{{ label }}</span>
       </button>
     </div>
   </div>
